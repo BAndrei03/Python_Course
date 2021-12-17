@@ -2,6 +2,9 @@ name = input("What is your name?")
 length = len(name)
 print(length)
 
+x = 777
+z = "Hello"
+
 
 
 print("Hello world!")
