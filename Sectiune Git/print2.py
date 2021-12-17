@@ -1,2 +1,2 @@
-x = 3,14
-print(x)
+v = 123
+print(v)
