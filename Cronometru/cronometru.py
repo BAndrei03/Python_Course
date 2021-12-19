@@ -30,14 +30,27 @@ def rest_calculator():
     rest_minute_secunde = 0
     rest_secunde = 0
 
-    if a != int(now.strftime("%H")):
-        rest_ora = a - int(now.strftime("%H"))
-        rest_ora_secunde = rest_ora * 3600
-    if b != int(now.strftime("%M")):
+    if c < int(now.strftime("%M")):
+        rest_secunde = 60 - int(now.strftime("%S"))
+    else:
+        rest_secunde = c - int(now.strftime("%S"))
+    if b >= int(now.strftime("%M")):
         rest_minute = b - int(now.strftime("%H"))
         rest_minute_secunde = rest_minute * 60
-    if c != int(now.strftime("%M")):
-        rest_secunde = c- int(now.strftime("%S"))
+        xyz = False
+    else:
+        rest_minute = (60 - (int(now.strftime("%M")) - b)) * 60
+        rest_minute_secunde = rest_minute * 60
+        xyz = True
+    if a == int(now.strftime("%H")):
+        rest_ora = 0
+    else:
+        if xyz == False:
+            rest_ora = a - int(now.strftime("%H"))
+            rest_ora_secunde = rest_ora * 3600
+        else:
+            rest_ora = a - int(now.strftime("%H")) - 1
+            rest_ora_secunde = rest_ora * 3600
     rest_total = rest_ora_secunde + rest_minute_secunde + rest_secunde
     return rest_total
 
