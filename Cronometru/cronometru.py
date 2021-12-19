@@ -40,7 +40,8 @@ def rest_calculator():
         rest_minute_secunde = rest_minute * 60
         xyz = False
     else:
-        rest_minute = (60 - (int(now.strftime("%M")) - b)) * 60
+        r = (int(now.strftime("%M"))) - b
+        rest_minute = 60 - r
         rest_minute_secunde = rest_minute * 60
         xyz = True
     if a == int(now.strftime("%H")):
