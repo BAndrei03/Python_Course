@@ -12,6 +12,7 @@ def countdown(t):
         print(timer, end="\r")
         time.sleep(1)
         t -= 1
+        print(t)
 
     print('Enough for today!!')
     sound()
@@ -35,7 +36,7 @@ def rest_calculator():
     else:
         rest_secunde = c - int(now.strftime("%S"))
     if b >= int(now.strftime("%M")):
-        rest_minute = b - int(now.strftime("%H"))
+        rest_minute = b - int(now.strftime("%M"))
         rest_minute_secunde = rest_minute * 60
         xyz = False
     else:
@@ -52,6 +53,7 @@ def rest_calculator():
             rest_ora = a - int(now.strftime("%H")) - 1
             rest_ora_secunde = rest_ora * 3600
     rest_total = rest_ora_secunde + rest_minute_secunde + rest_secunde
+    print(rest_total)
     return rest_total
 
 t = rest_calculator()
