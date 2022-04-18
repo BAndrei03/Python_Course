@@ -26,7 +26,7 @@ print("Hello " + "world")
 print("New lines can be created with a backslash and n.")
 
 input("what is your name?")
-print( "Hello" + input("what is your name?"))
+print("Hello" + input("what is your name?"))
 
 # 🚨 Don't change the code below 👇
 a = input("a: ")
@@ -47,4 +47,4 @@ print("a: " + a)
 print("b: " + b)
 
 
-print (len(input("what is your name?")))
+print(len(input("what is your name?")))
