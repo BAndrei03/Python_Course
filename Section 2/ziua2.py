@@ -2,7 +2,7 @@
 
 #String
 
-print("Hello"[4]) # [4] scoate al 4 leat litera din cuvant (incepem de la 0)
+print("Hello"[4]) # [4] scoate a 4 litera din cuvant (incepem de la 0)
 print("123"+"345")
 
 #Integer
