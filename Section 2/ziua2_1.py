@@ -10,10 +10,10 @@
 # a = float(123)
 # print(type(a))
 #
-print(70 + float("105.5"))
+# print(70 + float("105.5"))
 # print(str(70) + str(100))
 
 print(round(8/3, 2))
 print(8 // 3)
 #f-String
-# print(f"your score is {score}")
+print(f"your score is {score}")

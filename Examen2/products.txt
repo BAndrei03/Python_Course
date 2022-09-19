@@ -1,0 +1,40 @@
+microchip biti 46 interfata digital memorie 1.7
+microchip biti 12 interfata analog memorie 2.2
+placuta_elec latime 101 lungime 587 grosime 4.0
+placuta_elec latime 393 lungime 134 grosime 5.4
+rezistor rezistenta 2.187 material carbon capete 9
+rezistor rezistenta 1.511 material carbon capete 12
+cablu capat1 microUSB capat2 USB-C lungime 5 izolare cauciuc
+microchip biti 24 interfata digital memorie 2.7
+microchip biti 50 interfata digital memorie 2.3
+rezistor rezistenta 8.62 material ceramic capete 16
+placuta_elec latime 390 lungime 337 grosime 5.6
+placuta_elec latime 29 lungime 473 grosime 8.2
+microchip biti 26 interfata analog memorie 0.5
+rezistor rezistenta 18.288 material carbon capete 9
+rezistor rezistenta 3.903 material ceramic capete 17
+rezistor rezistenta 18.355 material ceramic capete 17
+rezistor rezistenta 2.303 material ceramic capete 12
+placuta_elec latime 185 lungime 513 grosime 1.9
+placuta_elec latime 287 lungime 63 grosime 9.0
+cablu capat1 VGA capat2 USB lungime 13 izolare textil
+microchip biti 11 interfata digital memorie 1.1
+placuta_elec latime 103 lungime 218 grosime 1.2
+cablu capat1 VGA capat2 microUSB lungime 9 izolare cauciuc
+cablu capat1 VGA capat2 HDMI lungime 7 izolare textil
+rezistor rezistenta 12.224 material ceramic capete 12
+cablu capat1 VGA capat2 DVI lungime 19 izolare textil
+microchip biti 9 interfata analog memorie 0.9
+microchip biti 16 interfata digital memorie 1.9
+cablu capat1 VGA capat2 USB lungime 6 izolare textil
+rezistor rezistenta 2.359 material carbon capete 6
+cablu capat1 HDMI capat2 VGA lungime 15 izolare textil
+rezistor rezistenta 6.002 material ceramic capete 15
+cablu capat1 microUSB capat2 USB-C lungime 18 izolare textil
+cablu capat1 microUSB capat2 HDMI lungime 6 izolare cauciuc
+placuta_elec latime 22 lungime 531 grosime 8.0
+microchip biti 50 interfata analog memorie 1.5
+microchip biti 49 interfata digital memorie 0.2
+placuta_elec latime 314 lungime 220 grosime 0.7
+cablu capat1 DVI capat2 HDMI lungime 10 izolare cauciuc
+placuta_elec latime 453 lungime 148 grosime 5.1
