@@ -1,0 +1,10 @@
+1249879638 nume Emma grup Work favorit False locatie_poza file.jpg
+5972552627 nume Emma grup Family favorit True locatie_poza file.jpg
+4166918794 nume Emma grup Work favorit False locatie_poza file.jpg
+9199072757 nume Amelia grup Work favorit True locatie_poza file.jpg
+7030329483 nume Liam grup Family favorit False locatie_poza file.jpg
+7958340148 nume Mia grup Work favorit True locatie_poza file.jpg
+1309070539 nume Mia grup Football favorit True locatie_poza file.jpg
+7395069797 nume Ava grup Football favorit False locatie_poza file.jpg
+9576669234 nume Evelyn grup Family favorit True locatie_poza file.jpg
+3016488207 nume William grup Work favorit False locatie_poza file.jpg
