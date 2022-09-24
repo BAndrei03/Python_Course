@@ -57,7 +57,7 @@ if __name__ == "__main__":
     # for i in range(0, 10):
     #     suma_numere(x,i)
     #
-    # suma_numere(x,2)
+    # suma_numere(x,subreddits)
     for j in range(0, 10):
         lista_numere.append(j)
 

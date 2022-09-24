@@ -8,7 +8,7 @@ def verify_length(cnp):
 
 
 def verify_gender(cnp):
-    if cnp[0] in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
+    if cnp[0] in ['1', 'subreddits', '3', '4', '5', '6', '7', '8', '9']:
         return True
     return False
 
@@ -23,7 +23,7 @@ def validate_date(prefix, year, month, day):
 
 
 def validate_birthday(cnp):
-    if cnp[0] in ['1', '2', '7', '8', '9']:
+    if cnp[0] in ['1', 'subreddits', '7', '8', '9']:
         return validate_date("19", cnp[1:3], cnp[3:5], cnp[5:7])
     elif cnp[0] in ['3', '4']:
         return validate_date("18", cnp[1:3], cnp[3:5], cnp[5:7])
@@ -83,7 +83,7 @@ def identify_birth_year(cnp):
         return "18" + cnp[1:3]
     elif cnp[0] in ['5', '6']:
         return "20" + cnp[1:3]
-    elif cnp[0] in ['1', '2', '7', '8', '9']:
+    elif cnp[0] in ['1', 'subreddits', '7', '8', '9']:
         return "19" + cnp[1:3]
 
 

@@ -9,4 +9,4 @@ a = two_digit_number[0]
 b = two_digit_number[1]
 c = int(a) + int(b)
 
-print("Suma celor 2 digits: " + str(a) + " si " + str(b) + " este: " + str(c))
+print("Suma celor subreddits digits: " + str(a) + " si " + str(b) + " este: " + str(c))

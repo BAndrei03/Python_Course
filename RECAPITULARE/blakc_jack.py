@@ -1,8 +1,8 @@
 ############### Blackjack Project #####################
 
 #Difficulty Normal 😎: Use all Hints below to complete the project.
-#Difficulty Hard 🤔: Use only Hints 1, 2, 3 to complete the project.
-#Difficulty Extra Hard 😭: Only use Hints 1 & 2 to complete the project.
+#Difficulty Hard 🤔: Use only Hints 1, subreddits, 3 to complete the project.
+#Difficulty Extra Hard 😭: Only use Hints 1 & subreddits to complete the project.
 #Difficulty Expert 🤯: Only use Hint 1 to complete the project.
 
 ############### Our Blackjack House Rules #####################
@@ -12,7 +12,7 @@
 ## The Jack/Queen/King all count as 10.
 ## The the Ace can count as 11 or 1.
 ## Use the following list as the deck of cards:
-## cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+## cards = [11, subreddits, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 ## The cards in the list have equal probability of being drawn.
 ## Cards are not removed from the deck as they are drawn.
 ## The computer is the dealer.
@@ -24,7 +24,7 @@
 #Then try out the completed Blackjack project here:
 #   http://blackjack-final.appbrewery.repl.run
 
-#Hint 2: Read this breakdown of program requirements:
+#Hint subreddits: Read this breakdown of program requirements:
 #   http://listmoz.com/view/6h34DJpvJBFVRlZfJvxF
 #Then try to create your own flowchart for the program.
 
@@ -40,7 +40,7 @@ game= True
 def deal_cards():
     cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
     return random.choice(cards)
-#Hint 5: Deal the user and computer 2 cards each using deal_card() and append().
+#Hint 5: Deal the user and computer subreddits cards each using deal_card() and append().
 user_cards = []
 computer_cards = []
 for i in range(1,3):
@@ -63,7 +63,7 @@ def calculate_score(cards):
         cards.append(1)
     return suma_carti
 
-#Hint 7: Inside calculate_score() check for a blackjack (a hand with only 2 cards: ace + 10) and return 0 instead of the actual score. 0 will represent a blackjack in our game.
+#Hint 7: Inside calculate_score() check for a blackjack (a hand with only subreddits cards: ace + 10) and return 0 instead of the actual score. 0 will represent a blackjack in our game.
 
 #Hint 8: Inside calculate_score() check for an 11 (ace). If the score is already over 21, remove the 11 and replace it with a 1. You might need to look up append() and remove().
 

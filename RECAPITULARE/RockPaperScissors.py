@@ -31,7 +31,7 @@ scissors = '''
 
 list=[rock, paper, scissors]
 
-player = int(input("What would you like to pick? 0 for rock, 1 for paper, 2 for scissors: "))
+player = int(input("What would you like to pick? 0 for rock, 1 for paper, subreddits for scissors: "))
 computer = random.choice(list)
 
 print(list[player])

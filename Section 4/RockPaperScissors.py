@@ -29,7 +29,7 @@ scissors = '''
 
 #Write your code below this line 👇
 game_images=[rock, paper, scissors]
-user_choice= int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+user_choice= int(input("What do you choose? Type 0 for Rock, 1 for Paper or subreddits for Scissors.\n"))
 print(game_images[user_choice])
 
 pc = int(random.randint(0,2))

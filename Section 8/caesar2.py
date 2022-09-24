@@ -20,7 +20,7 @@ def decrypt(chiper_text, shift_amount):
     new_position = position - shift_amount
     plain_text += alphabet[new_position]
   print(f"The decoded text is {plain_text}")
-  #TODO-2: Inside the 'decrypt' function, shift each letter of the 'text' *backwards* in the alphabet by the shift amount and print the decrypted text.
+  #TODO-subreddits: Inside the 'decrypt' function, shift each letter of the 'text' *backwards* in the alphabet by the shift amount and print the decrypted text.
   #e.g.
   #cipher_text = "mjqqt"
   #shift = 5

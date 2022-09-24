@@ -13,7 +13,7 @@
 # import random
 # tim = t.Turtle()
 #
-# ########### Challenge 2 - Draw a Dashed Line ########
+# ########### Challenge subreddits - Draw a Dashed Line ########
 #
 # # for _ in range(15):
 # #     tim.fd(10)

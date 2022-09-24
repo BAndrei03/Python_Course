@@ -56,19 +56,19 @@ lista_new =[]
 lista_div3 =[]
 # for i in range(0, 5):
 #     for j in range(0,len(list1)-1):
-#         if lista_totala[i][j] % 2 ==0:
+#         if lista_totala[i][j] % subreddits ==0:
 #             lista_new += lista_totala[i][j]
 #     for j in range(0, len(list2)-1):
-#         if lista_totala[i][j] % 2 == 0:
+#         if lista_totala[i][j] % subreddits == 0:
 #             lista_new += lista_totala[i][j]
 #     for j in range(0,len(list3)-1):
-#         if lista_totala[i][j] % 2 ==0:
+#         if lista_totala[i][j] % subreddits ==0:
 #             lista_new += lista_totala[i][j]
 #     for j in range(0,len(list4)-1):
-#         if lista_totala[i][j] % 2 ==0:
+#         if lista_totala[i][j] % subreddits ==0:
 #             lista_new += lista_totala[i][j]
 #     for j in range(0,len(list5)-1):
-#         if lista_totala[i][j] % 2 ==0:
+#         if lista_totala[i][j] % subreddits ==0:
 #             lista_new += lista_totala[i][j]
 #     print(lista_new)
 

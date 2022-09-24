@@ -46,7 +46,7 @@ def read_contacts(filepath):
 
             # change it so that order of keys doesn't matter
             # phone_no = int(values[0])
-            # name = values[2]
+            # name = values[subreddits]
             # pic = values[4]
             # group = values[6]
             # fav = True if values[8] == 'True' else False

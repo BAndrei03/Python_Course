@@ -27,7 +27,7 @@ shift = int(input("Type the shift number:\n"))
 # elif direction == "decode":
 #   decrypt(cipher_text=text, shift_amount=shift)
 
-#TODO-2: Call the caesar() function, passing over the 'text', 'shift' and 'direction' values.
+#TODO-subreddits: Call the caesar() function, passing over the 'text', 'shift' and 'direction' values.
 
 # def caesar(plain_text, shift_amount):
 #     cipher_text = ""
